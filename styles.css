@@ -1,6 +1,6 @@
 * {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 
@@ -13,31 +13,28 @@ body {
 }
 
 .perfume-container {
-    justify-content: center;
-    align-items: center;
     display: flex;
-    flex-direction: row;
     margin: 150px auto;
     background-color:hsl(0, 0%, 100%);
     height: auto;
     border-radius: 10px;
-    width: 585px;
+    width: 550px;
     gap: 29px;
 }
 
 img {
-    height: auto;
+    height: 380px;
     width: 291px;
     border-top-left-radius: 10px;
     border-bottom-left-radius: 10px;
+    display: block;
 }
 
 .card-details { 
     flex-direction: column;
     display: flex;
-    padding-top: 30px;
+    padding-top: 15px;
     gap: 20px;
-    padding-bottom: 30px; 
     align-items: flex-start;
     margin-right: 28px;
     height: auto;
@@ -50,8 +47,6 @@ h1 {
 }
 
 .details {
-    padding: 8px 0px;
-    word-spacing: 1px;
     line-height: 20px;
 }
 
@@ -69,7 +64,6 @@ h1 {
     flex-direction: row;
     gap: 25px;
     padding: 0rem -1rem;
-    padding-bottom: 10px;
 }
 
 .cart{
@@ -80,7 +74,6 @@ h1 {
 }
 
 button {
-    text-decoration: none;
     border: none;
     background-color: hsl(158, 36%, 37%);
     color: hsl(0, 0%, 100%);
@@ -90,7 +83,8 @@ button {
     transition-duration: 0.4s;
     width: 235px;
     height: 46px;
-    border-radius:10px;
+    border-radius: 10px;
+    align-items: center;
 }
 
 button:hover {
@@ -99,10 +93,9 @@ button:hover {
 
 .cart-icon{
     width: 15px;
-    height: 16px;
-    z-index: 98px;
+    height: auto;
     display: flex;
-    margin-left: -12.5em
+    margin-left: -12.5em;
 }
 
 @media screen and (max-width: 1000px ){
@@ -130,7 +123,7 @@ button:hover {
 
     img {
         height: auto;
-        width: 100%;
+        max-width: 100%;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         border-bottom-left-radius: 0px;
@@ -173,7 +166,6 @@ button:hover {
         font-size: 16.5px;
         font-family: "Montserrat";
         font-weight: 700;
-        padding-bottom: 0px;
     }
 
     .cart-icon{
@@ -182,9 +174,6 @@ button:hover {
         display: flex;
         margin-left: -15.5em
     }
-
-    
-
 }
 
 
